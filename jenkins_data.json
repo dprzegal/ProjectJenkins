@@ -1,0 +1,39 @@
+{ 
+
+ "jobs" : [ 
+
+    {"job_nr": 7, "job_name": "HelloWorld", "builds": 9, "last_build_date": "04/23/2022, 17:16:41", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 2, "job_name": "DeclarativePipeline", "builds": 3, "last_build_date": "04/19/2022, 08:14:43", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "FAILURE"},
+
+    {"job_nr": 13, "job_name": "ScriptedPipelineJenkins", "builds": 8, "last_build_date": "04/19/2022, 07:38:32", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 12, "job_name": "ScriptedPipeline", "builds": 1, "last_build_date": "04/15/2022, 15:31:54", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 4, "job_name": "DelPipelineDeploy", "builds": 2, "last_build_date": "04/15/2022, 14:16:23", "who_started_build": "Started by upstream project  DelPipelineTest  build number 2", "success_build": "SUCCESS"},
+
+    {"job_nr": 5, "job_name": "DelPipelineTest", "builds": 2, "last_build_date": "04/15/2022, 14:16:13", "who_started_build": "Started by upstream project  DelPipelineBuild  build number 2", "success_build": "SUCCESS"},
+
+    {"job_nr": 3, "job_name": "DelPipelineBuild", "builds": 2, "last_build_date": "04/15/2022, 14:16:05", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 16, "job_name": "TestNGSeleniumJob", "builds": 1, "last_build_date": "04/15/2022, 10:18:59", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 14, "job_name": "SonarQubeJob", "builds": 6, "last_build_date": "04/14/2022, 21:55:10", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "FAILURE"},
+
+    {"job_nr": 1, "job_name": "AnotherMavenJob", "builds": 5, "last_build_date": "04/14/2022, 21:27:52", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 11, "job_name": "MavenJob", "builds": 8, "last_build_date": "04/14/2022, 17:43:28", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 10, "job_name": "Job3", "builds": 1, "last_build_date": "04/13/2022, 19:03:39", "who_started_build": "Started by upstream project  Job2  build number 1", "success_build": "SUCCESS"},
+
+    {"job_nr": 9, "job_name": "Job2", "builds": 1, "last_build_date": "04/13/2022, 19:03:29", "who_started_build": "Started by upstream project  Job1  build number 1", "success_build": "SUCCESS"},
+
+    {"job_nr": 8, "job_name": "Job1", "builds": 1, "last_build_date": "04/13/2022, 19:03:19", "who_started_build": "Uruchomiono przez u퓓tkownika DPR", "success_build": "SUCCESS"},
+
+    {"job_nr": 6, "job_name": "DevProj1", "builds": 0, "last_build_date": {}, "who_started_build": {}, "success_build": {}},
+
+    {"job_nr": 15, "job_name": "TestJobInstance2", "builds": 0, "last_build_date": {}, "who_started_build": {}, "success_build": {}}
+
+ ] 
+
+}
