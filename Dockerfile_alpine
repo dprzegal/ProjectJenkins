@@ -1,0 +1,22 @@
+FROM alpine:3.15
+
+RUN apk add --no-cache --virtual build-dependencies python3 && \
+    python3 -m ensurepip && \
+    pip3 install --upgrade pip setuptools
+#RUN apk add --no-cache python3-pip
+
+RUN pip install python-jenkins
+
+#define mountable directory
+VOLUME ["/home/devops/code_docker/python_jenkins/ProjectJenkins"]
+
+#define working directory
+WORKDIR /home/devops/code_docker/python_jenkins/ProjectJenkins
+
+COPY jenkins_conn_log.log .
+COPY my_config.ini .
+COPY connection.py .
+
+ENTRYPOINT ["python3"]
+
+CMD ["./connection.py"]
